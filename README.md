@@ -30,3 +30,8 @@ Elastic block store (EBS) para almacenamiento persistente se refiere si cuando t
 <h2> AWS Management Console </h2>
 
 <p> La AWS Management Console es una aplicación web que engloba y hace referencia a un amplio conjunto de consolas de servicios para la administración de Amazon Web Services.</p>
+
+<h2>  Amazon Machine Image (AMI) </h2> 
+
+<p> Una Amazon Machine Image (AMI) proporciona la información necesaria para lanzar una instancia. Debe especificar una AMI al lanzar una instancia. Cuando necesite varias instancias con la misma configuración, puede lanzarlas desde una misma AMI. Cuando necesite instancias con distintas configuraciones, puede usar distintas AMI para lanzarlas.  <p>
+  
