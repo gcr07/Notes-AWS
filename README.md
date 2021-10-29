@@ -16,3 +16,10 @@ Repositorio de cosas importantes de AWS
 <li>c6g.large </li>
 <li>c6g.xlarge</li>
 </ol>
+
+<h2> Amazon Lightsail </h2>
+
+<p> Testing¹ revela que las instancias de Lightsail, de hecho, son instancias EC2, de la t2clase de instancias burstables.
+Fuente(https://qastack.mx/programming/40927189/what-is-difference-between-lightsail-and-ec2)</p>
+
+
