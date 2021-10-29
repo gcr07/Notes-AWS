@@ -25,4 +25,8 @@ Fuente(https://qastack.mx/programming/40927189/what-is-difference-between-lights
 <h2> Amazon Elastic Block Store (EBS) </h2>
 
 <p> 
-Elastic block store (EBS) para almacenamiento persistente se refiere si cuando termine la ejecucion de una maquina o virtual private server si los datos van a quedar almacenados o no se borran</p>
+Elastic block store (EBS) para almacenamiento persistente se refiere si cuando termine la ejecucion de una maquina o virtual private server si los datos van a quedar almacenados o no se borran.</p>
+
+<h2> AWS Management Console </h2>
+
+<p> La AWS Management Console es una aplicación web que engloba y hace referencia a un amplio conjunto de consolas de servicios para la administración de Amazon Web Services.</p>
