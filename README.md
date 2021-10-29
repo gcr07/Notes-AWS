@@ -9,7 +9,7 @@ Repositorio de cosas importantes de AWS
 <h3> Tipos de instancias </h3>
 <p> Son diferentes tipos de instancias de lo mismo y dependen de que quieras almacenamiento o procesamiento de datos </p>
 
-<p> Como regla general esta tipodeinstacia.tamaño algunos ejemplos </p> 
+<p> Como regla general esta tipodeinstacia.tamaño algunos <strong>Ejemplos:</strong> </p> 
 
 <ol>
 <li>c6g.medium</li> 
