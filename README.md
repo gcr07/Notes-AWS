@@ -35,7 +35,7 @@ Elastic block store (EBS) para almacenamiento persistente se refiere si cuando t
 
 <h2> Amazon Elastic Container Service (ECS) </h2>
 
-<p> Dockers  en la nube! Amazon ECS makes it easy to deploy, manage, and scale Docker containers running applications, services, and batch processes. Amazon ECS places containers across your cluster based on your resource needs and is integrated with familiar features like Elastic Load Balancing, EC2 security groups, EBS volumes and IAM roles. </p> 
+<p> Dockers  en la nube! Amazon ECS makes it easy to deploy, manage, and scale Docker containers running applications, services, and batch processes. Amazon ECS places containers across your cluster based on your resource needs and is integrated with familiar features like Elastic Load Balancing, EC2 security groups, EBS volumes and IAM roles. Amazon ECS uses Docker images in task definitions to launch containers as part of tasks in your clusters. </p> 
 
 <h2>  Amazon Machine Image (AMI) </h2> 
 
@@ -54,3 +54,8 @@ De forma alternativa, el almacén de instancias local solo persiste durante la v
 <h2> AWS Fargate </h2>
 
 <p> AWS Fargate es un motor informático sin servidor de pago por uso que permite centrarse en la creación de aplicaciones sin tener que administrar los servidores. AWS Fargate es compatible con Amazon Elastic Container Service (ECS) y Amazon Elastic Kubernetes Service (EKS). </p>
+
+<h2> Amazon Elastic Container Registry (Amazon ECR) </h2>
+
+<p> Es como Dockerhub por lo que entiendo osea tu subes tu docker image la encriptas y en cualquier lado la bajan y la usan </p>
+
