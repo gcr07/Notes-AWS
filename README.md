@@ -22,6 +22,8 @@ Repositorio de cosas importantes de AWS
 <p> Testing¹ revela que las instancias de Lightsail, de hecho, son instancias EC2, de la t2clase de instancias burstables.
 Fuente(https://qastack.mx/programming/40927189/what-is-difference-between-lightsail-and-ec2)</p>
 
+<p> servidor privado virtual (o instancia de Lightsail).</p>
+
 <h2> Amazon Elastic Block Store (EBS) </h2>
 
 <p> 
