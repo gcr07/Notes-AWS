@@ -59,3 +59,7 @@ De forma alternativa, el almacén de instancias local solo persiste durante la v
 
 <p> Es como Dockerhub por lo que entiendo osea tu subes tu docker image la encriptas y en cualquier lado la bajan y la usan </p>
 
+
+<h2>IAM - AWS Identity and Access Management</h2>
+
+<p> Con AWS Identity and Access Management (IAM) puede administrar el acceso a los servicios y recursos de AWS de manera segura. Además, puede crear y administrar usuarios y grupos de AWS, así como utilizar permisos para conceder o negar el acceso de estos a los recursos de AWS.</p>
