@@ -2,7 +2,7 @@
 
 Repositorio de cosas importantes de AWS
 
-<h2> E2C Elastic Compute Cloud </h2>
+<h2> EC2 Elastic Compute Cloud </h2>
 
 <p> Basicamente lo que entendi es que son maquinas virtuales en la nube que se pagan bajo demanda </p>
 
