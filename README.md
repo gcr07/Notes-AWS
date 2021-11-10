@@ -102,3 +102,43 @@ De forma alternativa, el almacén de instancias local solo persiste durante la v
 <h2> Amazon Aurora </h2>
 
 <p> Amazon Aurora is a MySQL and PostgreSQL-compatible relational database built for the cloud that combines the performance and availability of traditional enterprise databases with the simplicity and cost-effectiveness of open source databases.</p>
+
+<h1> Herramientas para desarrolladores de AWS </h1> 
+
+<h2> Amazon CodeCommit </h2> 
+
+<p> AWS CodeCommit is a managed source control system that hosts Git repositories and works with all Git-based tools.
+
+AWS CodeCommit will store code, binaries, and metadata in a redundant fashion with high availability. You will be able to collaborate with local and remote teams to edit, compare, sync, and revise your code. </p>
+
+<h2> Amazon CodePipeline </h2> 
+
+<p> AWS CodePipeline is a fully managed continuous delivery service that helps you automate your release pipelines for fast and reliable application and infrastructure updates. CodePipeline automates the build, test, and deploy phases of your release process every time there is a code change, based on the release model you define. This enables you to rapidly and reliably deliver features and updates. You can easily integrate AWS CodePipeline with third-party services such as GitHub or with your own custom plugin. With AWS CodePipeline, you only pay for what you use. There are no upfront fees or long-term commitments </p>
+
+<p>  CodePipeline crea, prueba e implementa su código siempre que hay un cambio de código, con base en los modelos de proceso de la versión que define. Esto le permite brindar rápida y confiablemente características y actualizaciones. </p>
+
+<h2> AWS CodeBuild </h2>
+
+<p> AWS CodeBuild is a fully managed continuous integration service that compiles source code, runs tests, and produces software packages that are ready to deploy. With CodeBuild, you don't need to provision, manage, and scale your own build servers. </p> 
+
+<h2> What are the differences? </h2>
+
+<p> The main difference between the two is; AWS CodeBuild can be classified as a tool in the Continuous Integration category, while AWS CodePipeline is grouped under Continuous Deployment.</p>
+
+<h2> What is Continuous Integration? </h2> 
+
+<p>Continuous integration is a software development method where members of the team can integrate their work at least once a day. In this method, every integration is checked by an automated build to search the error.
+
+In continuous integration after a code commit, the software is built and tested immediately. In a large project with many developers, commits are made many times during a day. With each commit code is built and tested. If the test is passed, build is tested for Deployment. If the Deployment is a success, the code is pushed to production. This commit, build, test, and deploy is a continuous process, and hence the name continuous integration/deployment.</p>
+
+<h2> What is Continuous Delivery? </h2>
+
+<p> Continuous delivery is a software engineering method in which a team develops software products in a short cycle. It ensures that software can be easily released at any time.
+
+The main aim of continuous delivery is to build, test, and release software with good speed and frequency. It helps you to reduce the cost time and risk of delivering changes by allowing for frequent updates in production. </p>
+
+<h2> Ejemplos </h2>
+
+<p> Jenkins es un servidor open source para la integración continua. Es una herramienta que se utiliza para compilar y probar proyectos de software de forma continua, lo que facilita a los desarrolladores integrar cambios en un proyecto y entregar nuevas versiones a los usuarios.</p>
+
+
