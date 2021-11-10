@@ -2,6 +2,8 @@
 
 Repositorio de cosas importantes de AWS
 
+<h1> Servicios de informática de AWS </h1>
+
 <h2> EC2 Elastic Compute Cloud </h2>
 
 <p> Basicamente lo que entendi es que son maquinas virtuales en la nube que se pagan bajo demanda </p>
