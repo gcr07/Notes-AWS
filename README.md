@@ -141,4 +141,24 @@ The main aim of continuous delivery is to build, test, and release software with
 
 <p> Jenkins es un servidor open source para la integración continua. Es una herramienta que se utiliza para compilar y probar proyectos de software de forma continua, lo que facilita a los desarrolladores integrar cambios en un proyecto y entregar nuevas versiones a los usuarios.</p>
 
+<h2> Amazon CodeDeploy </h2> 
 
+<p> AWS CodeDeploy is a fully managed deployment service that automates software deployments to a variety of compute services such as Amazon EC2, AWS Fargate, AWS Lambda, and your on-premises servers. ... You can use AWS CodeDeploy to automate software deployments, eliminating the need for error-prone manual operations.</p>
+
+<h1> Herramientas de administración de AWS </h1> 
+
+<p> AWS proporciona cuatro tipos de herramientas de administración que trabajan juntas y están integradas en cada parte de la plataforma AWS, desde Amazon EC2 hasta Amazon DynamoDB, con el fin de que usted controle con facilidad todas las partes en la infraestructura de la nube.</p>
+
+<h2> Amazon CloudFormation </h2>
+
+<p> AWS CloudFormation is a service that gives developers and businesses an easy way to create a collection of related AWS and third-party resources, and provision and manage them in an orderly and predictable fashion.</p>
+  
+  <h2> Amazon CloudWatch </h2> 
+  
+  <p> Amazon CloudWatch is a monitoring service for Amazon Web Services cloud resources and the applications you run on Amazon Web Services. You can use Amazon CloudWatch to collect and track metrics, collect and monitor log files, set alarms, and automatically react to changes in your Amazon Web Services resources.</p> 
+  
+  <h2>  AWS Systems Manager </h2> 
+  
+  <p> AWS Systems Manager (formerly known as SSM) is an AWS service that you can use to view and control your infrastructure on AWS. Using the Systems Manager console, you can view operational data from multiple AWS services and automate operational tasks across your AWS resources. </p> 
+  
+  
