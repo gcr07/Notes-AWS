@@ -161,6 +161,8 @@ The main aim of continuous delivery is to build, test, and release software with
   
   <p> AWS Systems Manager (formerly known as SSM) is an AWS service that you can use to view and control your infrastructure on AWS. Using the Systems Manager console, you can view operational data from multiple AWS services and automate operational tasks across your AWS resources. </p> 
   
+  <h1> Servicios de almacenamiento de AWS </h1>
+  
   <h2> Amazon Elastic Block Store (EBS) </h2>
   
   <p> Amazon Elastic Block Store (Amazon EBS) es un servicio de almacenamiento en bloque fácil de usar, escalable y de alto rendimiento diseñado para Amazon Elastic Compute Cloud (Amazon EC2). </p>
@@ -169,4 +171,12 @@ The main aim of continuous delivery is to build, test, and release software with
   
   <p> Amazon Elastic File System (Amazon EFS) is a simple, serverless, set-and-forget, elastic file system. There is no minimum fee or setup charge. You pay only for the storage you use, for read and write access to data stored in Infrequent Access storage classes, and for any provisioned throughput. </p>
   
+  <h2> Amazon S3 </h2> 
   
+  <p>Amazon S3 is an object storage service that stores data as objects within buckets. An object is a file and any metadata that describes the file.</p>
+  
+  <h2> Amazon Glacier </h2>
+  
+  <p> Amazon S3 Glacier is a secure, durable, and extremely low-cost Amazon S3 storage class for data archiving and long-term backup. With S3 Glacier, customers can store their data cost effectively for months, years, or even decades. </p>
+  
+  <p> Amazon S3 is a durable, secure, simple, and fast storage service, while Amazon S3 Glacier is used for archiving solutions. Use S3 if you need low latency or frequent access to your data. ... S3 and Glacier are designed for availability of 99.99%. S3 can be used to host static web content, while Glacier cannot.</p>
