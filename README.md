@@ -161,4 +161,12 @@ The main aim of continuous delivery is to build, test, and release software with
   
   <p> AWS Systems Manager (formerly known as SSM) is an AWS service that you can use to view and control your infrastructure on AWS. Using the Systems Manager console, you can view operational data from multiple AWS services and automate operational tasks across your AWS resources. </p> 
   
+  <h2> Amazon Elastic Block Store (EBS) </h2>
+  
+  <p> Amazon Elastic Block Store (Amazon EBS) es un servicio de almacenamiento en bloque fácil de usar, escalable y de alto rendimiento diseñado para Amazon Elastic Compute Cloud (Amazon EC2). </p>
+  
+  <h2> Amazon EFS resources </h2> 
+  
+  <p> Amazon Elastic File System (Amazon EFS) is a simple, serverless, set-and-forget, elastic file system. There is no minimum fee or setup charge. You pay only for the storage you use, for read and write access to data stored in Infrequent Access storage classes, and for any provisioned throughput. </p>
+  
   
