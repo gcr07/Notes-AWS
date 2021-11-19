@@ -180,3 +180,26 @@ The main aim of continuous delivery is to build, test, and release software with
   <p> Amazon S3 Glacier is a secure, durable, and extremely low-cost Amazon S3 storage class for data archiving and long-term backup. With S3 Glacier, customers can store their data cost effectively for months, years, or even decades. </p>
   
   <p> Amazon S3 is a durable, secure, simple, and fast storage service, while Amazon S3 Glacier is used for archiving solutions. Use S3 if you need low latency or frequent access to your data. ... S3 and Glacier are designed for availability of 99.99%. S3 can be used to host static web content, while Glacier cannot.</p>
+  
+  <h1> Servicios de entrega de contenido y redes de AWS </h1>
+  
+  <h2>Amazon Virtual Private Cloud (VPC)  </h2> 
+  
+  <p>  Amazon Virtual Private Cloud (VPC) gives you complete control over your virtual networking environment, including resource placement, connectivity, and security. The first step is to create your VPC. Then you can add resources to it, such as Amazon Elastic Compute Cloud (EC2) and Amazon Relational Database Service (RDS) instances. Finally, you can define how your VPCs communicate with each other across accounts, Availability Zones (AZs), or Regions. In the example below, network traffic is shared between two VPCs within each region.
+  </p>
+  
+<h2> Amazon Route 53 </h2> 
+
+<p> Amazon Route 53 provides highly available and scalable Domain Name System (DNS), domain name registration, and health-checking web services. It is designed to give developers and businesses an extremely reliable and cost effective way to route end users to Internet applications by translating names like example.com into the numeric IP addresses, such as 192.0.2.1, that computers use to connect to each other. </p>
+
+<h2> Amazon DirectConnect </h2>
+<p>  AWS Direct Connect is a cloud service that links your network directly to AWS, bypassing the internet to deliver more consistent, lower-latency performance.</p>
+
+<h2> Elastic Load Balancing </h2>
+
+<p>Elastic Load Balancing (ELB) automatically distributes incoming application traffic across multiple targets and virtual appliances in one or more Availability Zones (AZs). </p> 
+
+<h2> Amazon CloudFront </h2> 
+
+<p> Amazon CloudFront is a web service that speeds up distribution of your static and dynamic web content, such as .html, .css, .js, and image files, to your users. CloudFront delivers your content through a worldwide network of data centers called edge locations. When a user requests content that you're serving with CloudFront, the request is routed to the edge location that provides the lowest latency (time delay), so that content is delivered with the best possible performance. ( entrega rapida de contenido )  </p> 
+
