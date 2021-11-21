@@ -207,4 +207,4 @@ The main aim of continuous delivery is to build, test, and release software with
 
 AWS Cloud Practitioner Essentials </h1> 
 
-
+<p> The three cloud computing deployment models are cloud-based, on-premises, and hybrid. 
