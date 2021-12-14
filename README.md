@@ -204,7 +204,13 @@ The main aim of continuous delivery is to build, test, and release software with
 <p> Amazon CloudFront is a web service that speeds up distribution of your static and dynamic web content, such as .html, .css, .js, and image files, to your users. CloudFront delivers your content through a worldwide network of data centers called edge locations. When a user requests content that you're serving with CloudFront, the request is routed to the edge location that provides the lowest latency (time delay), so that content is delivered with the best possible performance. ( entrega rapida de contenido )  </p> 
 
 <h1> 
+  
+  <h2> AWS Identity and Access Management (IAM) </h2>
+  
+  <p> AWS Identity and Access Management (IAM) provides fine-grained access control across all of AWS. With IAM, you can specify who can access which services and resources, and under which conditions. With IAM policies, you manage permissions to your workforce and systems to ensure least-privilege permissions.</p> 
+  
 
 AWS Cloud Practitioner Essentials </h1> 
 
-<p> The three cloud computing deployment models are cloud-based, on-premises, and hybrid. 
+<p> The three cloud computing deployment models are cloud-based, on-premises, and hybrid. </p> 
+
