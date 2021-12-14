@@ -280,8 +280,7 @@ Lambda (Function as a Service) and
 
 
 <ol> 
-<li> m5.2xlarge
-
+  <p> <strong> For example m5.2xlarge </strong> </p>
 
 <li> m: instance class                      </li>
 <li> 5:generations                            </li>   
