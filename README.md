@@ -212,11 +212,11 @@ The main aim of continuous delivery is to build, test, and release software with
   <h3> IAM Security Tools </h3> 
   <h4> 
     IAM Credentials Report </h4>
-  <p>  Lista de usuarios si cuentan con mfa etc... </p> 
+  <p>  Lista de usuarios si cuentan con mfa status de las credenciales. </p> 
   
   <h4> IAM Access Advisor </h4> 
   
-  <p> Los servicios y cosas que se consumieron </p> 
+  <p> Los servicios y que usuario tiene que privilegios y cuando se consumieron y que se consumion </p> 
   
   <h4> What are IAM Policies? </h4>
   
