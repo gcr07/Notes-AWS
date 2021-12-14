@@ -209,8 +209,20 @@ The main aim of continuous delivery is to build, test, and release software with
   
   <p> AWS Identity and Access Management (IAM) provides fine-grained access control across all of AWS. With IAM, you can specify who can access which services and resources, and under which conditions. With IAM policies, you manage permissions to your workforce and systems to ensure least-privilege permissions.</p> 
   
-
-AWS Cloud Practitioner Essentials </h1> 
-
-<p> The three cloud computing deployment models are cloud-based, on-premises, and hybrid. </p> 
-
+  <h3> IAM Security Tools </h3> 
+  <h4> 
+    IAM Credentials Report </h4>
+  <p>  Lista de usuarios si cuentan con mfa etc... </p> 
+  
+  <h4> IAM Access Advisor </h4> 
+  
+  <p> Los servicios y cosas que se consumieron </p> 
+  
+  <h4> What are IAM Policies? </h4>
+  
+  <p> JSON documents to define Users,Groups or Roles permissions </p> 
+  
+  <h4> What is a proper definition of IAM Roles? </h4> 
+  
+  <p> An IAM entity that defines a set of permissions for making AWS service request that will be
+    used by AWS services. </p> 
