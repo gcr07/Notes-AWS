@@ -259,3 +259,33 @@ Lambda (Function as a Service) and
   
   <p> An IAM entity that defines a set of permissions for making AWS service request that will be
     used by AWS services. </p> 
+  
+  <h2> Amazon EC2 </h2> 
+
+
+<p> EC2 is a virtual machine that represents a physical server for you to deploy your applications. Instead of purchasing your own hardware and connecting it to a network, Amazon gives you nearly unlimited virtual machines to run your applications while they take care of the hardware. </p> 
+
+
+<h2> Bootstrapping </h2>
+
+<p> Running scripts or commands only in the first start only once. </p>
+
+
+<h3>EC2 instance types    </h3>   
+<h3>General Purpose       </h3>   
+<h3>Compute Optimized     </h3>   
+<h3>Memory Optimized      </h3>   
+<h3>Accelerated Computing </h3>   
+<h3>Storage Optimized     </h3>   
+
+
+<ol> 
+<li> m5.2xlarge
+
+
+<li> m: instance class                      </li>
+<li> 5:generations                            </li>   
+<li> 2xlarge:size within the instance class  </li>
+
+
+</ol>
