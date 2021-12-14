@@ -204,6 +204,39 @@ The main aim of continuous delivery is to build, test, and release software with
 <p> Amazon CloudFront is a web service that speeds up distribution of your static and dynamic web content, such as .html, .css, .js, and image files, to your users. CloudFront delivers your content through a worldwide network of data centers called edge locations. When a user requests content that you're serving with CloudFront, the request is routed to the edge location that provides the lowest latency (time delay), so that content is delivered with the best possible performance. ( entrega rapida de contenido )  </p> 
 
 <h1> 
+  <h2> Regiones  </h2>
+  
+  <p>     zonas de disponibilidad Se puede decir que estas entrando a la region.
+    cada region tiene zonas de disponibilidad normalmente 3 minimo 2 maximo 6
+    por ejemplo ap-southeast-2a ap-southeast-2b ap-southeast-2c </p>
+  
+  
+  <h2> AWS Point of Present </h2>
+  
+  <p>   en que suidades o lugares que esta presente Amazon
+  </p>
+  
+  
+  <h2> AWS has Global Services: </h2>
+  
+  <p> Identity and Access Management (IAM),
+Route 53 (DNS service),
+CloudFront (Content Delivery Network) and
+    WAF (Web Application Firewall) </p>
+
+  <h2> Most AWS services are Region-scoped: </h2>
+  
+  <p> Amazon EC2 (Infrastructure as a Service),
+Elastic Beanstalk (Platform as a Service),
+Lambda (Function as a Service) and
+    Rekognition (Software as a Service) </p>
+  
+  
+<h2> 
+  Edge Locations</h2> 
+  
+  <p>  Are caching sites to deliver content to end users with lower latency. They are located in Availability Zones. They are not used to deploy infrastructure, but for caching content.
+  </p> 
   
   <h2> AWS Identity and Access Management (IAM) </h2>
   
