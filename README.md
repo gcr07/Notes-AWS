@@ -288,3 +288,71 @@ Lambda (Function as a Service) and
 
 
 </ol>
+
+  # Resumen
+  
+  ##IAM Identity and Access Management
+  
+  ### Users
+  
+  Cada usuario de la compañia sera mapeado a un usuario el cual tendra acceso al AWS console con su respectivo password.
+  
+  ### Groups 
+  
+  Contienen a los usuarios
+  
+  ### Policies 
+  
+  Se representan por archivos JSON. Son los permisos que tendra un grupo de usuarios por ejemplo los developers tendran algunos permisos y los operadores otros pero podemos tener un grupo de auditores el cual contenga un usuario de developers este heredara ambos permisos o policies. Para dar policies a un usuario solamente se llama ***INLINE***
+  
+  ### IAM Roles
+  
+  Son permisos que se le van a asignar a una entidad no a un usuario como tal por ejemplo roles a:
+  
+  1 EC2 Instances
+  2 Lambda Function Roles
+  3 Roles para CloudFormation
+  
+  ### Security
+  
+  MFA factor de doble autenticacion mas password policy
+  
+  ### AWS CLI AWS SDK 
+  
+  El primero es para manejar AWS desde la consola(una que esta en el portal) La segunda es para manejar AWS desde un lenguaje de programacion
+  
+ ### Access Keys 
+  
+  AccedeAWS usando AWS CLI AWS SDK 
+  
+  ### Audit
+  
+  Para auditar nuestros accesos se usa ***Credential Reports & IAM Access Advisor***
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
