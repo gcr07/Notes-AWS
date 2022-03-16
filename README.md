@@ -329,6 +329,73 @@ Lambda (Function as a Service) and
   
   Para auditar nuestros accesos se usa ***Credential Reports & IAM Access Advisor***
   
+  ## EC2 Elastic Compute Cloud
+  
+  ### EC2 Instance
+  
+  Es una maquina virutal en la nube y se compone de: ***EC2 Instance AMI(OS) + Intance Size(CPU+RAM) + Storage + Security Groups(Firewall) + EC2 User Data ( scripts de inicio par automatizar por ejemplo instalacion de programas).
+  
+ ### Security Groups
+  
+  Firewall attached to the EC2 instance
+  
+ ### SSH 
+  
+  Puerto 22 ...
+  
+  ### EC2 Instance Role
+  
+  Link to IAM roles
+  
+  ### Puchasing Options OPCIONES de COMPRA
+  
+Se pueden alquilar diferentes tipos de instancias EC2 dependiendo del uso que se le quiera dar las cuales son:
+  
+ #### On-Demand Bajo demanda
+  
+  Se usan para trabajos cortos su costo es predesible. Paga por lo que usaas pagar por segundo despues del primer minuto. No hay plazos
+  
+  >Con Instancias bajo demanda, pagas la capacidad informática en la segunda , sin compromisos a largo plazo. Tiene control total sobre su ciclo de vida— usted decide cuándo ejecutarlo, detenerlo, hibernarlo, iniciarlo, reiniciarlo o terminarlo.
+>Recomendamos que use Instancias bajo demanda para aplicaciones con cargas de trabajo irregulares a corto plazo que no pueden interrumpirse.
+
+>Para ahorros importantes en instancias bajo demanda, utilice los Savings Plans de AWS
+, Spot Instances o Reserved Instances.  
+  
+  
+ #### Spot ( Punto lugar etc) El mas barato hasta 90% de descuento
+
+  Short workloads baratas pero poco confiables se pueden perder.
+  
+  >Una instancia de spot es una instancia que utiliza la capacidad sobrante de EC2 que está disponible por un precio inferior con respecto al precio bajo demanda. Dado que las Instancias de spot permiten solicitar instancias EC2 no utilizadas con grandes descuentos, es posible reducir considerablemente los costos de Amazon EC2. El precio por hora de una instancia de spot se denomina precio de spot. Amazon EC2 establece el precio de spot de cada tipo de instancia en cada zona de disponibilidad, y este fluctúa en función de la oferta y la demanda a largo plazo de las Instancias de spot. Su instancia de spot se ejecuta siempre que haya capacidad disponible y que el precio máximo por hora de su solicitud sea superior al precio de spot.
+
+Las Instancias de spot son una opción económica si es flexible con respecto a cuándo es necesario ejecutar las aplicaciones y si las aplicaciones se pueden interrumpir. Por ejemplo, las Instancias de spot son adecuadas para análisis de datos, trabajos por lotes, procesamiento en segundo plano y tareas opcionales. Para obtener más información, consulte Amazon EC2 Instancias de spot
+.
+  
+ #### Reserved (Standard  + Convertible + Scheduled) barato hasta 75% de descuento
+  
+ Son instancias ec2 que se resevan por periodos lardos de tiempo hay tres tipos ***Reserved Instances,(long workloads) Convertible Reserved Instances(long workloads with flexible instances osea puedes cambiar el tamaño igual con descuento) y Scheduled Reserved Instances(por ejemplo cada Jueves between 3 and 6PM igual tiene descuento pero se compromete de 1 a 3 años)*** . Mientras mas plazo te comprometas mas descuento hacen ademas si das todo el dinero igual hay descuento. Se reserva un tipo de instancia en especifico no puedes cambiarla. Por ejemplo es ideal para una base de datos.
+ 
+  
+#### Dedicated Host
+  
+ Un server completo fisico 
+  
+  
+#### Dedicated Instnace 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
