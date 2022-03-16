@@ -291,7 +291,7 @@ Lambda (Function as a Service) and
 
   # Resumen
   
-  ##IAM Identity and Access Management
+  ## IAM Identity and Access Management
   
   ### Users
   
@@ -323,7 +323,7 @@ Lambda (Function as a Service) and
   
  ### Access Keys 
   
-  AccedeAWS usando AWS CLI AWS SDK 
+  Accede AWS usando AWS CLI AWS SDK 
   
   ### Audit
   
