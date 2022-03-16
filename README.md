@@ -364,25 +364,22 @@ Se pueden alquilar diferentes tipos de instancias EC2 dependiendo del uso que se
   
  #### Spot ( Punto lugar etc) El mas barato hasta 90% de descuento
 
-  Short workloads baratas pero poco confiables se pueden perder.
+  Short workloads baratas pero poco confiables se pueden perder. Como se puede perder se tiene que ir guardando el avance.
+  Se usa en analisi de datos, Procesamiento de imagenes y Batch jobs. Ta,bien se podria trabajar con servidores distribuidos de modo que si se pierde esa instancia los otros sepan como reaccionar.
   
-  >Una instancia de spot es una instancia que utiliza la capacidad sobrante de EC2 que está disponible por un precio inferior con respecto al precio bajo demanda. Dado que las Instancias de spot permiten solicitar instancias EC2 no utilizadas con grandes descuentos, es posible reducir considerablemente los costos de Amazon EC2. El precio por hora de una instancia de spot se denomina precio de spot. Amazon EC2 establece el precio de spot de cada tipo de instancia en cada zona de disponibilidad, y este fluctúa en función de la oferta y la demanda a largo plazo de las Instancias de spot. Su instancia de spot se ejecuta siempre que haya capacidad disponible y que el precio máximo por hora de su solicitud sea superior al precio de spot.
-
-Las Instancias de spot son una opción económica si es flexible con respecto a cuándo es necesario ejecutar las aplicaciones y si las aplicaciones se pueden interrumpir. Por ejemplo, las Instancias de spot son adecuadas para análisis de datos, trabajos por lotes, procesamiento en segundo plano y tareas opcionales. Para obtener más información, consulte Amazon EC2 Instancias de spot
+  >Una instancia de spot es una instancia que utiliza la capacidad sobrante de EC2 que está disponible por un precio inferior con respecto al precio bajo demanda. Dado que las Instancias de spot permiten solicitar instancias EC2 no utilizadas con grandes descuentos, es posible reducir considerablemente los costos de Amazon EC2. El precio por hora de una instancia de spot se denomina precio de spot. Amazon EC2 establece el precio de spot de cada tipo de instancia en cada zona de disponibilidad, y este fluctúa en función de la oferta y la demanda a largo plazo de las Instancias de spot. Su instancia de spot se ejecuta siempre que haya capacidad disponible y que el precio máximo por hora de su solicitud sea superior al precio de spot. Las Instancias de spot son una opción económica si es flexible con respecto a cuándo es necesario ejecutar las aplicaciones y si las aplicaciones se pueden interrumpir. Por ejemplo, las Instancias de spot son adecuadas para análisis de datos, trabajos por lotes, procesamiento en segundo plano y tareas opcionales. Para obtener más información, consulte Amazon EC2 Instancias de spot
 .
-  
- #### Reserved (Standard  + Convertible + Scheduled) barato hasta 75% de descuento
-  
- Son instancias ec2 que se resevan por periodos lardos de tiempo hay tres tipos ***Reserved Instances,(long workloads) Convertible Reserved Instances(long workloads with flexible instances osea puedes cambiar el tamaño igual con descuento) y Scheduled Reserved Instances(por ejemplo cada Jueves between 3 and 6PM igual tiene descuento pero se compromete de 1 a 3 años)*** . Mientras mas plazo te comprometas mas descuento hacen ademas si das todo el dinero igual hay descuento. Se reserva un tipo de instancia en especifico no puedes cambiarla. Por ejemplo es ideal para una base de datos.
+  Son instancias ec2 que se resevan por periodos lardos de tiempo hay tres tipos ***Reserved Instances,(long workloads) Convertible Reserved Instances(long workloads with flexible instances osea puedes cambiar el tamaño ingual con descuento) y Scheduled Reserved Instances(por ejemplo cada Jueves between 3 and 6PM igual tiene descuento pero se compromete de 1 a 3 años)*** . Mientras mas plazo te comprometas mas descuento hacen ademas si das todo el dinero igual hay descuento. Se reserva un tipo de instancia en especifico no puedes cambiarla. Por ejemplo es ideal para una base de datos.
  
   
-#### Dedicated Host
+#### Dedicated Host (Mas caro)
   
- Un server completo fisico 
+ Un server completo fisico totalmete todo el servi"dor para que tu lo uses ayuda a address complice requeriments puede ayudar con las licencias mismas asociadas al servidor."Server Boun Software licenses". Se asigna por 3 años mas caro
   
   
 #### Dedicated Instnace 
   
+Es una variante de Dedicated Host sin embargo las diferencias radica en que el usuario no tiene control del lugar donde se aloja osea no address complice( cumplimento de lugar por ejemplo en Francia debe de estar los datos de los usuarios en el mismo pais) no se puede pedir mas espacio se cobra por instancia es un hardware dedicado para tu uso. Cuadno se apaga o se para el hardware se puede mover sin que el usuario tenga control.
   
   
   
