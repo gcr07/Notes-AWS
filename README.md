@@ -397,6 +397,26 @@ Es una variante de Dedicated Host sin embargo las diferencias radica en que el u
 Son instancias listas para usar customizadas
   >Una Amazon Machine Image (AMI) proporciona la información necesaria para lanzar una instancia. Debe especificar una AMI al lanzar una instancia. Cuando necesite varias instancias con la misma configuración, puede lanzarlas desde una misma AMI. Cuando necesite instancias con distintas configuraciones, puede usar distintas AMI para lanzarlas.
   
+ ### Ec2 Instance Store
+  
+  Cuando se necesita un disco mas rapido ( en el caso de un pc normal por ejemplo SSD) se utiliza un disco duro fisico conectado al hardware pero si termina la instancia se pierde se tiene que extar respaldando la info.
+  
+ ### EFS
+  
+  Es un tipo de arcihvos compartidos el cual tiene alcance de region y se pueden conectar hasta 100 onstancias
+  
+### ESF-IA
+  
+Cost optimiced storage para archivo de infrecuent accessed osea es como el EFS pero par aarchivos que no se usan casi.
+  
+### FSx  y FSx for Lustre
+  
+  Windows Network File system for windows servers y Hight performance computing Linux file system
+  
+## ELB (Elastic Load Balancing) ASG (Auto scaling groups)
+  
+  
+  
   
   
   
