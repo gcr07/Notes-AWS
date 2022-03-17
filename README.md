@@ -381,7 +381,21 @@ Se pueden alquilar diferentes tipos de instancias EC2 dependiendo del uso que se
   
 Es una variante de Dedicated Host sin embargo las diferencias radica en que el usuario no tiene control del lugar donde se aloja osea no address complice( cumplimento de lugar por ejemplo en Francia debe de estar los datos de los usuarios en el mismo pais) no se puede pedir mas espacio se cobra por instancia es un hardware dedicado para tu uso. Cuadno se apaga o se para el hardware se puede mover sin que el usuario tenga control.
   
+## EC2 Instance Storage
   
+### EBS (ELastic Block Store)  
+  
+ Network drives attached to one EC" instance at a time. Se manejan por zonas de disponibilidad para pasarlos across AZ se hace un snapshot
+  
+### EC2 Image Buider
+  
+  Se usa para crear las imagenes o AMIs automatiza mantiene y valida.
+  
+  
+  ### AMI
+   
+Son instancias listas para usar customizadas
+  >Una Amazon Machine Image (AMI) proporciona la información necesaria para lanzar una instancia. Debe especificar una AMI al lanzar una instancia. Cuando necesite varias instancias con la misma configuración, puede lanzarlas desde una misma AMI. Cuando necesite instancias con distintas configuraciones, puede usar distintas AMI para lanzarlas.
   
   
   
