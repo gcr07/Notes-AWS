@@ -415,7 +415,7 @@ Cost optimiced storage para archivo de infrecuent accessed osea es como el EFS p
   
 ## ELB (Elastic Load Balancing) ASG (Auto scaling groups)
   
-  
+###   
   
   
   
