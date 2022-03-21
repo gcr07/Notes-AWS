@@ -474,6 +474,62 @@ Cost optimiced storage para archivo de infrecuent accessed osea es como el EFS p
   Direct Conect DX Establece una conexion fisica a los servicios de AWS mas cara.
   
   
+  ## Encryption 
+  
+  ### AWS Key Managemed Service
+  
+  
+  ### AWS Certificate Manager (ACM)
+  
+  Maneja los certifcados SSL/TLS.
+  
+  
+  ### AWS Artifact 
+  
+  Es un portal donde se encuentran documentos sobre 
+  
+  
+  ### GuardDuty 
+  
+  
+  Servicio que permitemediaten intelligent thread discobvery proteger tus cuentas analiza los logs de cloudtrail dns logs vpc flow logs
+  
+  ### Amazon Inspector
+  
+  Es como una especia de antivirus analiza en busca de vulnerabilidades el programa AWS Inspector Agent  puede geenerar reportes.
+  
+  
+  ### AWS Config 
+  
+  Va llevando un registro de las configuracion y sus cambios y audita acerca dl cumplimiento se puede almacenar en buckets S3 por ejemplo si hay buckets publicos o si hay ssh que no son permitidos puede generar notificaciones SNS.
+ se configura por region. 
+  
+  ### AWS Macie
+  
+  Machine learnign and patters para proteger infomacion sensible en AWS utiliza S3 buckets
+  
+  ### AWS Security Hub ( multiple account)
+  
+  Central security tool to manage security across several AWS accounts an automate security checks.
+  
+  
+ ### Amazon Detective 
+  
+  Con la informacion de Guardduty maci and security hub esta herramienta alaiza la informacion para identificar problemas de seguridad.
+  
+   
+ ### AWS Abuse
+  
+  Para cosas como distribucion de lamware port scaning y todo este tipo de abuso usanod aws contactar con AWS abuse team o AWS abuse form o al correo abuse@amazonaws.com
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
