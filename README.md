@@ -476,7 +476,19 @@ Cost optimiced storage para archivo de infrecuent accessed osea es como el EFS p
   
   ## Encryption 
   
-  ### AWS Key Managemed Service
+  ### AWS Shield 
+  
+  Automatic DDos protection
+  
+  ### WAF 
+  
+  Firewall to filter incoming request based on rules
+  
+  ### AWS KMS 
+  
+  Encryption keys managed by AWS
+  
+  ### CloudHSM Hardware encryption we manage encryption keys.
   
   
   ### AWS Certificate Manager (ACM)
@@ -484,9 +496,9 @@ Cost optimiced storage para archivo de infrecuent accessed osea es como el EFS p
   Maneja los certifcados SSL/TLS.
   
   
-  ### AWS Artifact 
+  ### Artifact 
   
-  Es un portal donde se encuentran documentos sobre 
+  Es un portal donde se encuentran documentos sobre reportes such as PCI ISO etc.
   
   
   ### GuardDuty 
@@ -494,7 +506,7 @@ Cost optimiced storage para archivo de infrecuent accessed osea es como el EFS p
   
   Servicio que permitemediaten intelligent thread discobvery proteger tus cuentas analiza los logs de cloudtrail dns logs vpc flow logs
   
-  ### Amazon Inspector
+  ### Amazon Inspector( for EC2 only)
   
   Es como una especia de antivirus analiza en busca de vulnerabilidades el programa AWS Inspector Agent  puede geenerar reportes.
   
@@ -521,6 +533,69 @@ Cost optimiced storage para archivo de infrecuent accessed osea es como el EFS p
  ### AWS Abuse
   
   Para cosas como distribucion de lamware port scaning y todo este tipo de abuso usanod aws contactar con AWS abuse team o AWS abuse form o al correo abuse@amazonaws.com
+  
+### Root user privileges
+  
+  La primera cuenta creada al registrarte en aws tambien llamado account owner. Completo acceso a todos los servicios. solo el usuario root puede cerrar la cuenta de AWS cambiar siertos account settings password email 
+  resestor AIM permissions se puede registrar como venderdor en la Reserverd Instance Marketplace sing up for GovCloud.
+  
+  
+  ## Machine learning
+  
+  ### Rekognition 
+  
+  Se usa para reconocimiento facial.
+  
+  ### Trascribe
+  
+  Covert audio to text.
+  
+  ### Polly 
+  
+  text to audio
+  
+### Translate 
+  
+  Traductor
+  
+### Lex
+  
+  es para crear chat bots
+  
+### Connect 
+  
+  cloud contact center como tipo call center
+ 
+ ###  Comprehend 
+  
+  Natural languaje processing
+  
+  
+  ### Sage Maker 
+  
+  Machine learning for every developer and data scientist.
+  
+  ### Forecast 
+  
+  Build highle ac acurate forecast osea pronosticos 
+  
+  ### Kendra 
+
+ML- powered search engine
+  
+  ### Personalize
+  
+  Real time perszonalized recomendations como por ejemplo mercado libre   ue te recomienda mas productos para seguir comprando.
+  
+ ## Account and Billing management
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
