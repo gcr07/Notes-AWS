@@ -415,7 +415,65 @@ Cost optimiced storage para archivo de infrecuent accessed osea es como el EFS p
   
 ## ELB (Elastic Load Balancing) ASG (Auto scaling groups)
   
-###   
+##   VPC & Networking
+  
+### VPC (Virutal Private Cloud)  
+  
+  Es una red privada donde puedes desplegar tus recursos(regional)
+  
+  
+#### Subnets
+  
+  Permite partir la VPC en partes como VLANS ( AZ resource)
+  
+  #### Public Subnet
+  
+  Es una subnet acccesible desde internet con ayuda de ***Internet Gateways***
+  
+  
+ #### Private Subnet
+  
+  
+  Es una subnet no accesible desde internet como aislada
+  
+  #### Route Tables
+  
+  Para definir el acceso a intenet entre las subredes se utilizan las Tablas de enrutamiento.
+  
+  #### Internet Gateway
+  
+  Se pone enfrente de la public subnet para ayudar a las instancias a tener conexio a internet.
+  
+  #### NAT Gateways (AWS Managed) & NAT Insatances( selft managed)
+  
+  Permite a las subredes privadas tener acceso a internet sin dejar de ser privadas.
+  
+  #### Network ACL 
+  
+  Es un firewall que controla el trafico desde y para una subnet ALLOW and DENY solo puede incluir direcciones ip.Esta a nivel de  Subnet level.
+  
+  #### Security Groups
+  
+  Firewall solo tiene reglas ALLOW incluyen IPs y security gruops. Instance level.
+  
+  ### VPC Flow Logs
+  
+  Captura los log de trafico IP ***VPC Flow Logs SubnetFlow Logs Elastic Netwrok Interface ***. Pero tambien puede capturar informacion de ELB Elastic Cache RDS Aurora etc.
+  
+  #### VPC Peeering
+  
+  Se refiere a conectar 2 VPC y que parezca que estan en la misma red. Conectar una por una no hacen redes grandes por ejemplo en tres puntos.
+  
+  #### VPC Endpoints 
+  
+  Permite conectase a los servicos de AWS desde una red privada es mas seguro ***VPC Enpoint Gateway S3 & DynamoDB*** y para el resto ***VPC Endpoint Interface***.
+  
+  ### Hybrid cloud
+  
+  Site to Site VPN es como cuando te conectas a una vpn pero en este caso para on premises DC
+  Direct Conect DX Establece una conexion fisica a los servicios de AWS mas cara.
+  
+  
   
   
   
