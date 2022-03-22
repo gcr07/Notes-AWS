@@ -657,9 +657,23 @@ Sale mas barato reservar sin embargo se tiene que cumṕlir con plazos 1 a 3 añ
   
   Las PCI DSS son unas normas de seguridad polifacéticas que incluyen requisitos para la gestión de la seguridad, políticas, procedimientos, arquitectura de redes ... 
   
+ ### AWS Compute Optimizer
+  
+  Permite hacer ecomendaciones para bajar el costo en sus cargas de trabajo. Realiza un analisis de todo usa metricas de CloudWatch.
+  
+  ### BIlling an costing Tools 
+  #### Estimate cost in the cloud
+  
+  TCO Calcularot, Simple Monthy Calculator / Pricing Calculator 
+  
+  #### Tracking cost in the cloud 
+  
+  Billing Dashboard ,cost allocation tags, cost and usage reports,Cost explorer.
+  
+  #### Monitoring agaisn cost plans
   
   
-  
+
   
   
   
