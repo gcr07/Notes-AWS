@@ -476,7 +476,36 @@ Cost optimiced storage para archivo de infrecuent accessed osea es como el EFS p
   
   ## Encryption 
   
-  ### AWS Shield 
+  ### AWS KMS Key Management Service
+  
+  >AWS Key Management Service (AWS KMS) permite crear y administrar con facilidad las claves y controlar el uso del cifrado en una amplia variedad de servicios de AWS y en sus aplicaciones. AWS KMS es un servicio seguro y resistente que utiliza módulos de seguridad de hardware que sirven para proteger sus claves y que se han validado según las normas FIPS 140-2, o están en proceso de validación. AWS KMS está integrado con AWS CloudTrail para ofrecerle los registros de uso de todas las claves a fin de que se ajusten a sus necesidades vinculadas con asuntos normativos y de conformidad.
+  
+  
+  ### CloudHSM  Hardware Security Module
+  
+  AWS provisions encryption hardware para que nosotros hagamos el proceso. 
+  
+  ## Tipos de Customer Master Keys
+  
+  #### Customer Managed CMK
+  
+  Create Manage and used by the custumer can enable or disable
+  
+  #### AWS managed CMK
+  
+  Created managmed and used a nombre del cliente. los utiliza especificamente los servicos y por ejemplo son 
+  aws/s3 aws/ebs aws/redshift.
+  
+  #### AWS owned CMK
+  
+  Coleccion de CMK that un servicio de AWS tiene para usarse en varias cuentas se puede usar para proteger sus servicios in your account no puedes ver las llaves.
+  
+  #### CloudHSM Keys 
+  
+  Llaves generadis oir ek hardware CloudHSM 
+  
+  
+  ### AWS Shield  
   
   Automatic DDos protection
   
@@ -598,6 +627,30 @@ ML- powered search engine
   
 >Service control policies (SCPs) are a type of organization policy that you can use to manage permissions in your organization. SCPs offer central control over the maximum available permissions for all accounts in your organization. SCPs help you to ensure your accounts stay within your organization’s access control guidelines. SCPs are available only in an organization that has all features enabled. SCPs aren't available if your organization has enabled only the consolidated billing features. For instructions on enabling SCPs, see Enabling and disabling policy types.
   
+  ### AWS Control Tower
+  
+  Sirve para crear multi account enviroment con unos cuantos clicks. Corre en el nivel mas alto de AWS Organizations
+  Automatiza la administracion de AWS Organizations 
+  
+  >AWS Control Tower provides the easiest way to set up and govern a secure, multi-account AWS environment, called a landing zone. It creates your landing zone using AWS Organizations, bringing ongoing account management and governance as well as implementation best practices based on AWS’s experience working with thousands of customers as they move to the cloud. Builders can provision new AWS accounts in a few clicks, while you have peace of mind knowing that your accounts conform to company policies. Extend governance into new or existing accounts, and gain visibility into their compliance status quickly. If you are building a new AWS environment, starting out on your journey to AWS, or starting a new cloud initiative, AWS Control Tower will help you get started quickly with built-in governance and best practices.
+  
+ ### Pricing model of the Cloud (AWS has 4 pricing models)
+  
+  #### Pay as you go
+  
+  Pay for waht you use ,remain agile, meet scale demands.
+  
+  #### Save when you reserve 
+  
+Sale mas barato reservar sin embargo se tiene que cumṕlir con plazos 1 a 3 años dependiendo del servicio. Por ejemplo EC2 instances DyamonDB, RDS Reserverd instance.
+
+#### Pay less by using more
+  
+ Volumen based discounts 
+  
+ ### Pay less as AWS grows
+  
+  Cuando la infrestructura crece te dan descuentos
   
   
  ## PCI Compliance
