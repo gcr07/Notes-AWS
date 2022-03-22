@@ -589,11 +589,20 @@ ML- powered search engine
   
  ## Account and Billing management
   
+  ### AWS Organization 
+  
+  Global service to manage multiple AWS account la primera es la master account y las demas child.
+  Todas las cuenta se pagan por la master account. descuentos por volumen de uso por ejemplo EC2 o S3. Multi account strategy. Organization Units son como los departamentos de una empresa y aqui se refiere a como se divide la organizacion.
+  
+  ### Service Control Policies (SCP)
+  
+>Service control policies (SCPs) are a type of organization policy that you can use to manage permissions in your organization. SCPs offer central control over the maximum available permissions for all accounts in your organization. SCPs help you to ensure your accounts stay within your organization’s access control guidelines. SCPs are available only in an organization that has all features enabled. SCPs aren't available if your organization has enabled only the consolidated billing features. For instructions on enabling SCPs, see Enabling and disabling policy types.
   
   
   
+ ## PCI Compliance
   
-  
+  Las PCI DSS son unas normas de seguridad polifacéticas que incluyen requisitos para la gestión de la seguridad, políticas, procedimientos, arquitectura de redes ... 
   
   
   
