@@ -672,10 +672,36 @@ Sale mas barato reservar sin embargo se tiene que cumṕlir con plazos 1 a 3 añ
   
   #### Monitoring agaisn cost plans
   
+  Alarms  & AWS Budgets
   
+  
+  ## Advanced Identity
+  
+  ### AWS STS ( Security Token Service)
+  
+  Enables you to create temporaly limited privileges credentials to access your AWS. esto se usa por detras de esecna lo has estado usando por ejemplo cuando configuras un rol y este quiere acceder al algun recurso.
+  
+>AWS Security Token Service (STS) ahora le permite solicitar tokens de sesiones al punto de enlace de STS global que funciona en todas las regiones de AWS. Mediante el uso de sus usuarios o roles de AWS Identity and Access Management (IAM), puede configurar el punto de enlace de STS global para distribuir tokens de sesiones que son compatibles con todas las regiones de AWS. 
+  
+  
+#### Amazon Cognito
+  
+  Indentity for your web and mobile application users(potentially millions)
+  
+#### Directory Services 
 
+Active directory AWS Manged Microsoft AD create you aown AD in AWS ***AD Connector Directory Gateway to redirect to onpremise AD***  y ***Simple AD AD compatible managed directory on AWS***
   
   
+### Single Sing -On
+  
+Probable distractor pero se reifiere a usar una cuenta para acceder a multiples servicios como office 365 , Dropbox etc.
+
+  ## Other Services
+  
+  ### Amazon Workspaces 
+  
+La seguridad de VDI, y la flexibilidad, la escalabilidad y el costo de la nube de AWS. Amazon WorkSpaces es un servicio de informática de escritorio seguro totalmente gestionado y ejecutado en la nube de AWS. DaaS Desktop as a service. 
   
   
   
