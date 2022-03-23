@@ -791,7 +791,9 @@ The security pillar focuses on protecting information and systems. Key topics in
   
   The sustainability pillar focuses on minimizing the environmental impacts of running cloud workloads. Key topics include a shared responsibility model for sustainability, understanding impact, and maximizing utilization to minimize required resources and reduce downstream impacts. 
   
+  ## AWS Trusted Advisor 
   
+  AWS Trusted Advisor proporciona recomendaciones que lo ayudan a seguir las prácticas recomendadas de AWS. Trusted Advisor usa comprobaciones para evaluar su cuenta. Estas comprobaciones identifican formas de optimizar su infraestructura de AWS, mejorar la seguridad y el rendimiento, reducir los costos y monitorear las Service Quotas. Puede seguir las recomendaciones en materia de comprobaciones para optimizar sus recursos y servicios.
   
   
   
