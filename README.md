@@ -703,6 +703,30 @@ Probable distractor pero se reifiere a usar una cuenta para acceder a multiples 
   
 La seguridad de VDI, y la flexibilidad, la escalabilidad y el costo de la nube de AWS. Amazon WorkSpaces es un servicio de informática de escritorio seguro totalmente gestionado y ejecutado en la nube de AWS. DaaS Desktop as a service. 
   
+  #### AppStream 2.0 
+  
+Amazon AppStream 2.0 es un servicio completamente administrado de escritorios no persistentes y aplicaciones para acceder de forma remota a su trabajo. Desde un navegador web como la maquina de hack the box.
+  
+  #### Amazon Sumerian
+  
+  Crear y correr Realidad virtua.
+  
+  #### IoT Core 
+  
+  Permite conectat dispositivos IoT a AWS Cloud.
+  
+  #### Amazon Elastic Trascoder
+  
+  Convertifdor de en diferentes formatos
+  
+  #### AWS Device Farm 
+  
+  Permite realizar test  de web y mobile apps contro navegadores tabletas para ver como responden.
+  
+  #### AWS Backup
+  
+  >AWS Backup le permite centralizar y automatizar la protección de datos en distintos servicios de AWS y cargas de trabajo híbridas. AWS Backup ofrece un servicio rentable, completamente administrado y basado en políticas que simplifica aún más la protección de datos a escala. AWS Backup también contribuye a lograr el cumplimiento normativo y a que se cumplan las políticas empresariales en materia de protección de datos. Gracias a AWS Backup, junto con AWS Organizations, es posible implementar políticas de protección de datos de manera centralizada para configurar, administrar y controlar la actividad de copia de seguridad en todas las cuentas y los recursos de AWS de la organización, entre los que se incluyen instancias de Amazon Elastic Compute Cloud (Amazon EC2), volúmenes de Amazon Elastic Block Store (Amazon EBS), buckets de Amazon Simple Storage Service (Amazon S3), bases de datos de Amazon Relational Database Service (Amazon RDS) (incluidos los clústeres de Amazon Aurora), tablas de Amazon DynamoDB, bases de datos de Amazon Neptune, bases de datos de Amazon DocumentDB (compatible con MongoDB), sistemas de archivos de Amazon Elastic File System (Amazon EFS), sistemas de archivos de Amazon FSx for Lustre, sistemas de archivos de Amazon FSx for Windows File Server y volúmenes de AWS Storage Gateway, además de cargas de trabajo de VMware en las instalaciones y en VMware CloudTM on AWS.
+  
   
   
   
