@@ -801,7 +801,8 @@ The security pillar focuses on protecting information and systems. Key topics in
   >AWS Elastic Beanstalk es un servicio fácil de utilizar para implementar y escalar servicios y aplicaciones web desarrollados con Java, .NET, PHP, Node.js, Python, Ruby, Go y Docker en servidores familiares como Apache, Nginx, Passenger e IIS.
   
   
-  
+  ##The pay per hour is for EC2 Windows instances, not Linux EC2 instances.
+  ## With Linux EC2 instances, you pay per second of compute capacity. There is also a minimum of 60s of use.
   
   
   
