@@ -728,18 +728,68 @@ Amazon AppStream 2.0 es un servicio completamente administrado de escritorios no
   >AWS Backup le permite centralizar y automatizar la protección de datos en distintos servicios de AWS y cargas de trabajo híbridas. AWS Backup ofrece un servicio rentable, completamente administrado y basado en políticas que simplifica aún más la protección de datos a escala. AWS Backup también contribuye a lograr el cumplimiento normativo y a que se cumplan las políticas empresariales en materia de protección de datos. Gracias a AWS Backup, junto con AWS Organizations, es posible implementar políticas de protección de datos de manera centralizada para configurar, administrar y controlar la actividad de copia de seguridad en todas las cuentas y los recursos de AWS de la organización, entre los que se incluyen instancias de Amazon Elastic Compute Cloud (Amazon EC2), volúmenes de Amazon Elastic Block Store (Amazon EBS), buckets de Amazon Simple Storage Service (Amazon S3), bases de datos de Amazon Relational Database Service (Amazon RDS) (incluidos los clústeres de Amazon Aurora), tablas de Amazon DynamoDB, bases de datos de Amazon Neptune, bases de datos de Amazon DocumentDB (compatible con MongoDB), sistemas de archivos de Amazon Elastic File System (Amazon EFS), sistemas de archivos de Amazon FSx for Lustre, sistemas de archivos de Amazon FSx for Windows File Server y volúmenes de AWS Storage Gateway, además de cargas de trabajo de VMware en las instalaciones y en VMware CloudTM on AWS.
   
   
+ #### Disaster Recovery Stratgegies
+  
+  ##### Backup and Restore
+  
+  Backup and Restore guardar los datos de la empresa en la nube. El mas barato 
+  
+  ##### Pilot Light 
+  
+  Un poco mas caro qu ela otra core functions of the aoo redy to scalete
+  
+  #### Warm Standby
+  
+  Full version of the app en l anube lista para ser restaurada minimun size
+  
+  #### Multi-Site/Hot-Site
+  
+   Full version at full size la mas cara.
   
   
+  #### CloudEndure
+  
+  >Esta solución coordina y automatiza migraciones de gran escala a la nube de AWS, las cuales implican un elevado número de servidores. Las empresas pueden mejorar el rendimiento y evitar periodos de transición largos si automatizan los procesos manuales e integran varias herramientas de manera eficiente. Esto es posible mediante las opciones de la plataforma de orquestación de esta solución, que incluye CloudEndure Migration y, a partir de la versión 2.0.0, AWS Application Migration Service (AWS MGN). Recomendamos AWS MGN para volver a alojar servidores a AWS a escala. En la actualidad, los servicios profesionales de AWS, los socios de AWS y otras empresas utilizan esta solución.(Desaster recovery)
+  
+ #### AWS DataSync
+  
+  >AWS DataSync es un servicio seguro en línea que automatiza y acelera el traslado de datos entre las instalaciones y los servicios de almacenamiento de AWS. DataSync puede copiar datos entre recursos compartidos de Network File System (NFS), Server Message Block (SMB), Hadoop Distributed File Systems (HDFS), almacenamiento de objetos autoadministrados, AWS Snowcone, buckets de Amazon Simple Storage Service (Amazon S3), sistemas de archivos de Amazon Elastic File System (Amazon EFS), Amazon FSx for Windows File Server y Amazon FSx for Lustre para sistemas de archivos. 
   
   
+  #### AWS Fault Injection Simulator
+  
+A fully managed service for running fault injection experiments on AWS workloads estresando la aplicacion creando disbrupciones.
+  
+ ## AWS Architection & Ecosystem
+  
+  ### Well Architecture Framework 6 pilares 
+  
+  >The AWS Well-Architected Framework describes key concepts, design principles, and architectural best practices for designing and running workloads in the cloud. By answering a few foundational questions, learn how well your architecture aligns with cloud best practices and gain guidance for making improvements.
+  
+  #### 1 Operational Excellence Pillar
+  
+ The operational excellence pillar focuses on running and monitoring systems, and continually improving processes and procedures. Key topics include automating changes, responding to events, and defining standards to manage daily operations.
+  
+  #### 2 Security Pillar
+  
+The security pillar focuses on protecting information and systems. Key topics include confidentiality and integrity of data, managing user permissions, and establishing controls to detect security events.
   
   
+  #### Reliability Pillar
   
+  The reliability pillar focuses on workloads performing their intended functions and how to recover quickly from failure to meet demands. Key topics include distributed system design, recovery planning, and adapting to changing requirements.
   
+  #### Performance Efficiency Pillar
   
+  The performance efficiency pillar focuses on structured and streamlined allocation of IT and computing resources. Key topics include selecting resource types and sizes optimized for workload requirements, monitoring performance, and maintaining efficiency as business needs evolve.
   
+  #### Cost Optimization Pillar
   
+  The cost optimization pillar focuses on avoiding unnecessary costs. Key topics include understanding spending over time and controlling fund allocation, selecting resources of the right type and quantity, and scaling to meet business needs without overspending.
   
+  #### Sustainability Pillar
+  
+  The sustainability pillar focuses on minimizing the environmental impacts of running cloud workloads. Key topics include a shared responsibility model for sustainability, understanding impact, and maximizing utilization to minimize required resources and reduce downstream impacts. 
   
   
   
